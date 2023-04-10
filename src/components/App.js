@@ -27,7 +27,7 @@ const handleTick = ()=>{
         </form>
       {maledata ? (
           <div>
-             <h1>Select your shirt size</h1>
+             <h2>Select your shirt size</h2>
               <select>
                 <option>Small</option>
                 <option>Medium</option>
@@ -37,7 +37,7 @@ const handleTick = ()=>{
 
       ):(
         <div>
-           <h1>Select your dress size</h1>
+           <h2>Select your dress size</h2>
            <select>
              <option default>select size</option>
              <option>2</option>
